@@ -15,7 +15,7 @@ function attachListeners() {
 }
 
 function loadUrl() {
-  common.naclModule.postMessage('getUrl:../../manifest.json');
+  common.naclModule.postMessage('getUrl:chrome-extension://gjdhcbgbfaojgoifabicidcbebpgpflg/manifest.json');
 }
 
 // Called by the common.js module.
