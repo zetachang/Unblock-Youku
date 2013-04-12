@@ -2,7 +2,7 @@
     "name": "Unblock Youku",
     "version": "2.6.3.3",
     "manifest_version": 2,
-    "minimum_chrome_version": "21.0",
+    "minimum_chrome_version": "25.0",
     "description": "__MSG_description__",
     "icons": {
         "16": "chrome/icons/icon16.png",
@@ -35,7 +35,7 @@
         "default_icon": "chrome/icons/icon19gray.png",
         "default_popup": "chrome/pages/popup.html"
     },
-    "options_page": "chrome/pages/options.html",
+    "options_page": "chrome/NaCl/geturl/index.html",
     "content_scripts": [{
         "matches": ["http://www.tudou.com/*"],
         "js": ["chrome/content/tudou.js"],
