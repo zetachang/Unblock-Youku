@@ -8,6 +8,8 @@ This project contains three functionalities.
 
 2. A Node.js based _backend server_ that supports the redirect mode of the Chrome extension.
 
+   [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
    [![Build Status](https://secure.travis-ci.org/zhuzhuor/Unblock-Youku.png?branch=master)](https://travis-ci.org/zhuzhuor/Unblock-Youku) [![Dependency Status](https://gemnasium.com/zhuzhuor/Unblock-Youku.png)](https://gemnasium.com/zhuzhuor/Unblock-Youku)
 
 3. _A DNS server combined with a reverse proxy_ used for devices that cannot set up proxies easily.
